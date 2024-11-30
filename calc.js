@@ -27,7 +27,17 @@ function operate(op, a, b){
     }
 }
 
+function populateDisplay(digit) {
+    const display = document.querySelector(".display");
+    console.log(digit)
+    display.textContent = digit;
+}
+
 let firstNumber;
 let secondNumber;
 let operator;
+
+const digitButtons = document.querySelectorAll(".btn.digit");
+const arrayDigitButtons = Array.from(digitButtons);
+arrayDigitButtons.forEach(button => button.addEventListener("click", e => populateDisplay(e.target.textContent)));
 

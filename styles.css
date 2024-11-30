@@ -23,8 +23,10 @@ body {
 }
 
 .display {
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 10vh;
     height: 10vh;
-    width: 100%;
     margin-bottom: 10px;
     border: solid;
     border-color: black;
