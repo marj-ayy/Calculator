@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #e2d7d7;
 }
 
 .btn {
@@ -16,6 +17,15 @@ body {
     padding: 10px 40px;
     border-radius: 20px;
     flex: 1;
+    background-color: #e2d7d7;
+}
+
+.operator {
+    background-color: #f9a302;
+}
+
+.clear {
+    background-color: red;
 }
 
 .btn.clear {
@@ -23,6 +33,8 @@ body {
 }
 
 .display {
+    background-color: black;
+    color: white;
     text-align: right;
     padding: 5px 10px;
     font-size: 10vh;
@@ -44,3 +56,4 @@ body {
     display: flex;
     gap: 5px;
 }
+
